@@ -28,13 +28,11 @@ export default function Detail() {
     <section>
       <h1>{item.judul}</h1>
       <dl>
-        <dt>Kategori</dt>
-        <dd>{item.kategori}</dd>
         <dt>kabupaten</dt>
         <dd>{item.kabupaten}</dd>
-        <dt>hargaTiket</dt>
+        <dt>Harga Tiket (Rp)</dt>
         <dd>{item.hargaTiket}</dd>
-        <dt>jamBuka</dt>
+        <dt>Jam Buka</dt>
         <dd>{item.jamBuka}</dd>
       </dl>
       <div className="aksi">

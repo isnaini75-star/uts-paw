@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import useKoleksi from '../hooks/useKoleksi.js'
 import './Tambah.css'
 
-const AWAL = { judul: '', kategori: 'Kuliah', tenggat: '', prioritas: 'sedang' }
+const AWAL = { judul: '', kategori: 'Kuliner', kabupaten: 'Lampung Tengah', hargaTiket: ' ', jamBuka: ' ' }
 
 export default function Tambah() {
   const { tambah } = useKoleksi()
@@ -27,11 +27,11 @@ export default function Tambah() {
     <form className="formulir" onSubmit={simpan} noValidate>
       <h1>Tambah Wisata di Lampung</h1>
 
-      <label htmlFor="judul">Nama wisata</label>
-      <input id="Nama wisata" name="judul" value={form.judul} onChange={ubah} />
+      <label htmlFor="judul">judul</label>
+      <input id="judul" name="judul" value={form.judul} onChange={ubah} />
       {galat && <p role="alert">{galat}</p>}
 
-      <label htmlFor="kategori">Kategori wisata</label>
+      <label htmlFor="kategori">kategori</label>
       <select id="kategori wisata" name="kategori" value={form.kategori} onChange={ubah}>
         <option>Kuliner</option>
         <option>Gunung</option>
@@ -39,11 +39,11 @@ export default function Tambah() {
         <option>Budaya</option>
         <option>Air Terjun</option>
         <option>Rekreasi</option>
-        <option>Taman Wisata</option>
+        <option>Budaya</option>
       </select>
 
-      <label htmlFor="prioritas">kabupaten/kota</label>
-      <select id="kabupaten/kota" name="prioritas" value={form.prioritas} onChange={ubah}>
+      <label htmlFor="kabupaten">kabupaten</label>
+      <select id="kabupaten" name="kabupaten" value={form.kabupaten} onChange={ubah}>
         <option >Lampung Selatan</option>
         <option >Lampung Tengah</option>
         <option >Lampung Barat</option>
@@ -61,12 +61,12 @@ export default function Tambah() {
         <option >Pesisir Barat</option>
       </select>
 
-      <label htmlFor="judul">Harga Tiket </label>
-      <input id="Harga Tiket" name="judul" value={form.judul} onChange={ubah} />
+      <label htmlFor="hargaTiket">Harga Tiket (Rp) </label>
+      <input id="hargaTiket" name="hargaTiket" value={form.hargaTiket} onChange={ubah} />
       {galat && <p role="alert">{galat}</p>}
 
-      <label htmlFor="judul">Jam Buka</label>
-      <input id="Jam Buka" name="judul" value={form.judul} onChange={ubah} />
+      <label htmlFor="jamBuka">Jam Buka </label>
+      <input id="jamBuka" name="jamBuka" value={form.jamBuka} onChange={ubah} />
       {galat && <p role="alert">{galat}</p>}
 
       <button type="submit">Simpan</button>

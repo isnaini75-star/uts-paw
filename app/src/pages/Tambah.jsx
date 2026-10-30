@@ -25,7 +25,7 @@ export default function Tambah() {
 
   return (
     <form className="formulir" onSubmit={simpan} noValidate>
-      <h1>Tambah Tugas</h1>
+      <h1>Tambah Wisata di Lampung</h1>
 
       <label htmlFor="judul">Nama wisata</label>
       <input id="Nama wisata" name="judul" value={form.judul} onChange={ubah} />
@@ -39,19 +39,32 @@ export default function Tambah() {
         <option>Budaya</option>
       </select>
 
-      <label htmlFor="prioritas">Prioritas</label>
-      <select id="prioritas" name="prioritas" value={form.prioritas} onChange={ubah}>
-        <option value="rendah">Rendah</option>
-        <option value="sedang">Sedang</option>
-        <option value="tinggi">Tinggi</option>
-      </select>
-
       <label htmlFor="prioritas">Kabupaten/Kota</label>
       <select id="Kabupaten/Kota" name="prioritas" value={form.prioritas} onChange={ubah}>
-        <option value="rendah">Rendah</option>
-        <option value="sedang">Sedang</option>
-        <option value="tinggi">Tinggi</option>
+        <option >Lampung Selatan</option>
+        <option >Lampung Tengah</option>
+        <option >Lampung Barat</option>
+        <option >Lampung Utara</option>
+        <option >Lampung Timur</option>
+        <option >Tanggamus</option>
+        <option >Way Kanan</option>
+        <option >Tulang Bawang</option>
+        <option >Pesawaran</option>
+        <option >Pringsewu</option>
+        <option >Mesuji</option>
+        <option >Bandar Lampung</option>
+        <option >Metro</option>
+        <option >Tulang Bawang Barat</option>
+        <option >Pesisir Barat</option>
       </select>
+
+      <label htmlFor="judul">Harga Tiket </label>
+      <input id="Harga Tiket" name="judul" value={form.judul} onChange={ubah} />
+      {galat && <p role="alert">{galat}</p>}
+
+      <label htmlFor="judul">Jam Buka</label>
+      <input id="Jam Buka" name="judul" value={form.judul} onChange={ubah} />
+      {galat && <p role="alert">{galat}</p>}
 
       <button type="submit">Simpan</button>
     </form>

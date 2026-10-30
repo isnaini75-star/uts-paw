@@ -42,8 +42,8 @@ export default function Tambah() {
         <option>Taman Wisata</option>
       </select>
 
-      <label htmlFor="prioritas">Kabupaten/Kota</label>
-      <select id="Kabupaten/Kota" name="prioritas" value={form.prioritas} onChange={ubah}>
+      <label htmlFor="prioritas">kabupaten/kota</label>
+      <select id="kabupaten/kota" name="prioritas" value={form.prioritas} onChange={ubah}>
         <option >Lampung Selatan</option>
         <option >Lampung Tengah</option>
         <option >Lampung Barat</option>

@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react'
-import { KoleksiContext } from './KoleksiContext.js' 
+import { KoleksiContext } from './KoleksiContext.js'
 import useLocalStorage from '../hooks/useLocalStorage.js'
 
 export function KoleksiProvider({ children }) {
-  const [items, setItems] = useLocalStorage('uts-paw-koleksi-baru', null)
+  const [items, setItems] = useLocalStorage('uts-paw-koleksi', null)
   const [loading, setLoading] = useState(items === null)
   const [error, setError] = useState(null)
 

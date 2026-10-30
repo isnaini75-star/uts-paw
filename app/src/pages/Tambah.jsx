@@ -37,6 +37,9 @@ export default function Tambah() {
         <option>Gunung</option>
         <option>Pantai</option>
         <option>Budaya</option>
+        <option>Air Terjun</option>
+        <option>Rekreasi</option>
+        <option>Taman Wisata</option>
       </select>
 
       <label htmlFor="prioritas">Kabupaten/Kota</label>

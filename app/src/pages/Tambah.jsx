@@ -25,13 +25,13 @@ export default function Tambah() {
 
   return (
     <form className="formulir" onSubmit={simpan} noValidate>
-      <h1>Tambah Wisata di Lampung</h1>
+      <h1>Yuk, Tambahkan Wisata di Lampung!!</h1>
 
-      <label htmlFor="judul">judul</label>
+      <label htmlFor="judul">Judul</label>
       <input id="judul" name="judul" value={form.judul} onChange={ubah} />
       {galat && <p role="alert">{galat}</p>}
 
-      <label htmlFor="kategori">kategori</label>
+      <label htmlFor="kategori">Kategori</label>
       <select id="kategori wisata" name="kategori" value={form.kategori} onChange={ubah}>
         <option>Kuliner</option>
         <option>Gunung</option>
@@ -42,7 +42,7 @@ export default function Tambah() {
         <option>Budaya</option>
       </select>
 
-      <label htmlFor="kabupaten">kabupaten</label>
+      <label htmlFor="kabupaten">Kabupaten</label>
       <select id="kabupaten" name="kabupaten" value={form.kabupaten} onChange={ubah}>
         <option >Lampung Selatan</option>
         <option >Lampung Tengah</option>

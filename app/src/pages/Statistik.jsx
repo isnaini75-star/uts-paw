@@ -7,7 +7,7 @@ export default function Statistik() {
 
   return (
     <section>
-      <h1>Statistik</h1>
+      <h1>Statistik Data Wisata</h1>
       <div className="tabel-gulir">
         <table className="tabel-data">
           <thead>

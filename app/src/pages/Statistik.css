@@ -4,8 +4,12 @@
 
 .tabel-data {
   width: 100%;
-  max-width: 480px;
+  max-width: 700px;
   border-collapse: collapse;
+  border-radius: 10px;
+  border: 5px double #93bae4;
+  
+  
 }
 
 .tabel-data th,
@@ -16,11 +20,11 @@
 }
 
 .tabel-data thead th {
-  background: #f1f1f1;
+  background: #98b7d5;
 }
 
 .tabel-data tbody tr:nth-child(even) {
-  background: #fafafa;
+  background: #98b7d5;
 }
 
 .tabel-data td:last-child,

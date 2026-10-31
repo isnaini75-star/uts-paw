@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background-color: #DCEEFF;
 }
 
 .kepala {
@@ -9,11 +10,17 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 1.5rem;
+  background-color: #98b7d5;
 }
 
 .menu {
   display: flex;
   gap: 1rem;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+  padding: 5px 10px;
+  background-color: #DCEEFF;
 }
 
 .menu a.active {
@@ -31,8 +38,9 @@
 .kaki {
   padding: 1rem 1.5rem;
   border-top: 1px solid #dcdcdc;
-  color: #57606a;
+  background-color: #98b7d5;
   font-size: 0.9rem;
+  text-align: center;
 }
 
 .aksi {
@@ -64,8 +72,10 @@
 
 .kartu {
   padding: 1rem;
-  border: 1px solid #dcdcdc;
+  border: 2px solid #ffff;
   border-radius: 8px;
+  background-color: #98b7d5;
+  box-shadow: 0 5px 12px rgba(59, 150, 236, 0.473);
 }
 
 .kartu h3 {

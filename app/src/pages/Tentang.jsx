@@ -6,16 +6,16 @@ const REPO = 'https://github.com/isnaini75-star/uts-paw'
 export default function Tentang() {
   const { nama, nim, kelas, tema } = mahasiswa
   return (
-    <section>
-      <h1>Tentang</h1>
+    <section classname="about-container">
+      <h1>About Me</h1>
       <dl>
-        <dt>ISNAINI FEBRIANA</dt>
+        <dt>nama</dt>
         <dd>{nama}</dd>
-        <dt>124140075</dt>
+        <dt>nim</dt>
         <dd>{nim}</dd>
-        <dt>RB</dt>
+        <dt>kelas</dt>
         <dd>{kelas}</dd>
-        <dt>Destinasi Wisata Lampung</dt>
+        <dt>tema</dt>
         <dd>{tema}</dd>
       </dl>
       <p>

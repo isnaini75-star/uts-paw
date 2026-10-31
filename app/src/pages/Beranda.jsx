@@ -1,14 +1,15 @@
 import { Link } from 'react-router-dom'
 import useKoleksi from '../hooks/useKoleksi.js'
 import mahasiswa from '../../mahasiswa.json'
+import './beranda.css'
 
 export default function Beranda() {
   const { items, loading } = useKoleksi()
   const jumlahKategori = new Set(items.map((item) => item.kategori)).size
 
   return (
-    <section>
-      <h1>Mengenal Indahnya Wisata Lampung</h1>
+    <section className="beranda-container">
+      <h1>Jelajahi Keindahan Wisata di Lampung!!</h1>
       <p>Tema: {mahasiswa.tema}</p>
       {loading ? (
         <p>Memuat ringkasan...</p>
@@ -17,7 +18,7 @@ export default function Beranda() {
           Ada {items.length} tugas dalam {jumlahKategori} kategori.
         </p>
       )}
-      <Link to="/koleksi">Lihat semua tugas</Link>
+      <Link to="/koleksi" className="beranda-tombol">Ayo lihat destinasi</Link>
     </section>
   )
 }

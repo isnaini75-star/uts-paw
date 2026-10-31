@@ -29,6 +29,7 @@
   padding: 20px 30px;
   background-color: #98b7d5;
   width: 700px;
+  box-shadow: 0 5px 12px rgba(59, 150, 236, 0.473);
 }
 
 .beranda-link {

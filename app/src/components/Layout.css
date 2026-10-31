@@ -65,6 +65,20 @@
   margin-top: 1rem;
 }
 
+.aksi-hapus {
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  padding: 9px 17px;
+  background-color: #98b7d5;
+}
+
+.aksi-kembali {
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  padding: 4px 6px;
+  background-color: #98b7d5;
+}
+
 .isi dl {
   display: grid;
   grid-template-columns: max-content 1fr;
@@ -106,7 +120,7 @@
 
 .kartu p {
   margin: 0;
-  color: #57606a;
+  color: #0f0f0f;
 }
 
 .alat-koleksi {
@@ -122,6 +136,10 @@
   border: 1px solid #c4c4c4;
   border-radius: 6px;
   font: inherit;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  padding: 5px 8px;
+  background-color: #98b7d5;
 }
 
 @media (max-width: 768px) {

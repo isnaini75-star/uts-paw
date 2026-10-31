@@ -36,10 +36,10 @@ export default function Detail() {
         <dd>{item.jamBuka}</dd>
       </dl>
       <div className="aksi">
-        <button type="button" onClick={konfirmasiHapus}>
+        <button type="button" className="aksi-hapus" onClick={konfirmasiHapus}>
           Hapus
         </button>
-        <Link to="/koleksi">Kembali</Link>
+        <Link to="/koleksi" className="aksi-kembali">Kembali</Link>
       </div>
     </section>
   )

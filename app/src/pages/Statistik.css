@@ -2,14 +2,18 @@
   overflow-x: auto;
 }
 
+.judul-statistik {
+  text-align: center;
+}
+
 .tabel-data {
   width: 100%;
   max-width: 700px;
   border-collapse: collapse;
   border-radius: 10px;
   border: 5px double #93bae4;
-  
-  
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .tabel-data th,

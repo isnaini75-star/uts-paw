@@ -1,11 +1,11 @@
 [
   {
     "id": "1",
-    "judul": "Taman Merdeka Kota Metro",
-    "kategori": "Taman wisata",
-    "kabupaten": "Metro",
-    "hargaTiket": 2000,
-    "jamBuka": "06.00-18.00 WIB"
+    "judul": "Pantai Klara",
+    "kategori": "Pantai",
+    "kabupaten": "Pesawaran",
+    "hargaTiket": 45000,
+    "jamBuka": "07.00-18.00 WIB"
 
   },
 
@@ -47,11 +47,11 @@
 
   {
     "id": "6",
-    "judul": "Air Terjun Curup Tujuh",
-    "kategori": "Air Terjun",
-    "kabupaten": "Lampung Tengah",
-    "hargaTiket": 5000,
-    "jamBuka": "07.00-17.00 WIB"
+    "judul": "Gunung Pesagi",
+    "kategori": "Gunung",
+    "kabupaten": "Lampung Barat",
+    "hargaTiket": 15000,
+    "jamBuka": "06.00-18.00 WIB"
   },
 
   {
@@ -74,11 +74,11 @@
 
   {
     "id": "9",
-    "judul": "Navara Park",
-    "kategori": "Rekreasi",
-    "kabupaten": "Bandar Lampung",
-    "hargaTiket": 50000,
-    "jamBuka": "08.00-18.00 WIB"
+    "judul": "Pantai Sebalang",
+    "kategori": "Pantai",
+    "kabupaten": "Lampung Selatan",
+    "hargaTiket": 20000,
+    "jamBuka": "09.00-22.00 WIB"
   },
 
   {

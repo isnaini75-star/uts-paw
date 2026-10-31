@@ -23,6 +23,21 @@
   background-color: #DCEEFF;
 }
 
+.beranda-container {
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+  padding: 20px 30px;
+  background-color: #98b7d5;
+  width: 700px;
+}
+
+.beranda-link {
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  padding: 5px 8px;
+  background-color: #DCEEFF;
+}
+
 .menu a.active {
   font-weight: 600;
 }
@@ -54,6 +69,12 @@
   display: grid;
   grid-template-columns: max-content 1fr;
   gap: 0.25rem 1rem;
+  border: 2px solid #ffffff;
+  width: 500px;
+  border-radius: 10px;
+  padding: 5px 8px;
+  background-color: #98b7d5;
+  box-shadow: 0 5px 12px rgba(59, 150, 236, 0.473);
 }
 
 .isi dt {

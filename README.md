@@ -71,11 +71,18 @@ Kelas: RB
 Tema: Destinasi Wisata Lampung
 Deployment: https://isnaini75-star.github.io/uts-paw/
 
-![Tangkapan layar beranda](docs/beranda.png)
+![Tangkapan layar beranda](docs/beranda-wisata.png)
 
 ## Fitur
 
-- ...
+- Beranda : Menampilkan ringkasan jumlah dari destinasi wisata lampung yang sudah saya buat yang terdiri dari empat kategori.
+- Koleksi : Menampilkan daftar tempat wisata yang ada di lampung.
+- Detail wisata : Menampilkan informasi wisata seperti judul, kategori, kabupaten, harga tiket, dan jam buka.
+- Hapus wisata : Pengguna bisa menghapus data wisata dari koleksi.
+- Pencarian wisata : Pengguna dapat mencari nama tempat destinasi wisata di lampung dengan memasukkan nama wisata dan bisa mencarinya berdasarkan kategori wisata.
+- Tambah wisata : Dapat menambahkan data wisata yang baru yaitu mengisi judul wisata, kategori, kabupaten, harga tiket, dan jam buka tempat wisata.
+- Statistik : Menampilakn ringkasan jumlah data destinasi wisata yang berdasarkan kategori 
+- Tentang : Menampilkan informasi mengenai yang membuat website destinasi wisata lampung.
 
 ## Menjalankan secara lokal
 
@@ -85,5 +92,9 @@ npm run dev
 
 ## Konsep React yang dipakai
 
-- ...
+- Component : Membagi tampilan website menjadi beberapa komponen supaya kode yang kita buat menjadi terstruktur
+- Props : Mengirimkan data dari komponen induk ke anak
+- useState : Mengatur data dan perubahan tampilan pada aplikasi
+- React Router - Mengatur navigasi antarhalaman 
+- Event handling - Menangani interaksi pengguna
 ```

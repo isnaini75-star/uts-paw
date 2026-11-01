@@ -95,6 +95,8 @@ npm run dev
 - Component : Membagi tampilan website menjadi beberapa komponen supaya kode yang kita buat menjadi terstruktur
 - Props : Mengirimkan data dari komponen induk ke anak
 - useState : Mengatur data dan perubahan tampilan pada aplikasi
+- useEffect : Menjalankan proes tertentu saat data berubah
+- custom hooks : Menggunakan hook untuk mengelola data dan penyimpanan pada local storage
 - React Router - Mengatur navigasi antarhalaman 
 - Event handling - Menangani interaksi pengguna
 ```

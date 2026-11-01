@@ -3,14 +3,13 @@ import { useNavigate } from 'react-router-dom'
 import useKoleksi from '../hooks/useKoleksi.js'
 import './Tambah.css'
 
-const AWAL = { judul: '', kategori: 'Kuliner', kabupaten: 'Lampung Tengah', hargaTiket: ' ', jamBuka: ' ' }
+const AWAL = { judul: '', kategori: 'Kuliner', kabupaten: 'Lampung Tengah', hargaTiket: '', jamBuka: '' }
 
 export default function Tambah() {
   const { tambah } = useKoleksi()
   const navigate = useNavigate()
   const [form, setForm] = useState(AWAL)
   const [galat, setGalat] = useState('')
-
   const ubah = (e) => setForm({ ...form, [e.target.name]: e.target.value })
 
   const simpan = (e) => {
@@ -59,11 +58,11 @@ export default function Tambah() {
       </select>
 
       <label htmlFor="hargaTiket">Harga Tiket (Rp) </label>
-      <input id="hargaTiket" name="hargaTiket" value={form.hargaTiket} onChange={ubah} />
+      <input id="hargaTiket" name="hargaTiket" value={form.hargaTiket} onChange={ubah} placeholder=" contoh: 20000 " />
       {galat && <p role="alert">{galat}</p>}
 
       <label htmlFor="jamBuka">Jam Buka </label>
-      <input id="jamBuka" name="jamBuka" value={form.jamBuka} onChange={ubah} />
+      <input id="jamBuka" name="jamBuka" className="input-jam" value={form.jamBuka} onChange={ubah} placeholder="contoh: 07.00-18.00 WIB" />
       {galat && <p role="alert">{galat}</p>}
 
       <button type="submit">Simpan</button>

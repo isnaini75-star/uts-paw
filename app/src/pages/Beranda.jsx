@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import useKoleksi from '../hooks/useKoleksi.js'
 import mahasiswa from '../../mahasiswa.json'
-import gambarWisata from '../../../docs/destinasi-wisata-di-lampung_169.jpeg'
+import gambarWisata from '../../../../docs/destinasi-wisata-di-lampung_169.jpeg'
 
 export default function Beranda() {
   const { items, loading } = useKoleksi()

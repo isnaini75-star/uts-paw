@@ -18,7 +18,7 @@ export default function Tentang() {
         <dt>tema</dt>
         <dd>{tema}</dd>
       </dl>
-      <p>
+      <p className="isi-p">
         Kode sumber: <a href={REPO}>{REPO}</a>
       </p>
     </section>

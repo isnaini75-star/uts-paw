@@ -27,11 +27,13 @@
   border: 2px solid #ffffff;
   border-radius: 20px;
   padding: 20px 30px;
-  background-color: #98b7d5;
+  background-color: #98b6d581;
   width: 700px;
   box-shadow: 0 5px 12px rgba(59, 150, 236, 0.473);
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
+  border-bottom: 5px, solid #98b7d5;
 }
 
 .beranda-link {
@@ -41,14 +43,29 @@
   background-color: #DCEEFF;
   box-shadow: 0 5px 12px rgba(59, 150, 236, 0.473);
   display: inline-block;
-  margin: 15px auto;
+  margin: 10px auto;
+}
+
+.gambar-wisata {
+  width: 600px;
+  height: 200px;
+  object-fit: cover;
+  border: 10pxs;
 }
 
 .tema-h1{
   font-family: 'Playfair Display', serif;
   text-align: center;
   font-size: 40px;
+  margin-bottom: 5px;
 }
+
+.beranda {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+
 .tema-p {
   text-align: center;
   font-size: 18px;
@@ -106,14 +123,20 @@
   border: 2px solid #ffffff;
   border-radius: 10px;
   padding: 9px 17px;
-  background-color: #98b7d5;
+  background-color: #98b6d581;
 }
 
 .aksi-kembali {
   border: 2px solid #ffffff;
   border-radius: 10px;
   padding: 4px 6px;
-  background-color: #98b7d5;
+  background-color: #98b6d581;
+}
+
+.isi h1 {
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  font-size: 40px;
 }
 
 .isi dl {
@@ -124,8 +147,20 @@
   width: 500px;
   border-radius: 10px;
   padding: 5px 8px;
-  background-color: #98b7d5;
+  background-color: #98b6d581;
   box-shadow: 0 5px 12px rgba(59, 150, 236, 0.473);
+  margin: 0px auto;
+}
+
+.isi-p {
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px 8px;
+  border: 2px solid #ffffff;
+  background-color: #98b6d581;
+  box-shadow: 0 5px 12px rgba(59, 150, 236, 0.473);
+  width: 400px;
+  margin: 40px auto;
 }
 
 .isi dt {
@@ -146,7 +181,7 @@
   padding: 1rem;
   border: 2px solid #ffff;
   border-radius: 8px;
-  background-color: #98b7d5;
+  background-color: #98b6d581;
   box-shadow: 0 5px 12px rgba(59, 150, 236, 0.473);
 }
 
@@ -176,7 +211,7 @@
   border: 2px solid #ffffff;
   border-radius: 10px;
   padding: 5px 8px;
-  background-color: #98b7d5;
+  background-color: #98b6d581;
 }
 
 @media (max-width: 768px) {
